@@ -5,11 +5,41 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint .",
+    "storybook": "start-storybook -p 3001"
   },
   "dependencies": {
+    "@styled-icons/boxicons-logos": "^10.0.0",
+    "@styled-icons/boxicons-regular": "^10.0.0",
+    "@styled-system/css": "^5.1.5",
+    "@styled-system/prop-types": "^5.1.5",
+    "@styled-system/props": "^5.1.5",
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "@styled-system/theme-get": "^5.1.2",
+    "framer-motion": "^1.11.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "9.4.4",
+    "polished": "^3.6.4",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-youtube": "^7.11.2",
+    "styled-components": "^5.1.1",
+    "swr": "^0.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^7.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
